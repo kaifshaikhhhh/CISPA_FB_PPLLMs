@@ -20,6 +20,23 @@ Report the results for the following four datasets:
 3. MNLI (MultiNLI)
 4. QQP (Quora Question Pairs)
 
+## Internship Application Task Progress
+
+For the internship application task, I implemented 3 different privacy-preserving machine learning methods on 4 sequence classification datasets:
+
+- Soft Prompt Tuning
+- Prefix Tuning
+- LoRA (Low Rank Adaptation)
+
+These methods were applied while adhering to the specified privacy budget.
+
+I faced challenges implementing the remaining 2 methods:
+
+- Full Fine-Tuning: Could not straightforwardly implement differential privacy with my initial approach. Conceived an alternative mathematical approach involving clipping gradients and adding noise that I lacked time to implement.
+- Last Layer Fine-Tuning: Ran into technical difficulties getting the model to accept inputs to the new layer correctly. Have hypotheses for the cause that I'm still debugging.
+
+Overall, I was able to successfully implement 3 out of the 5 methods on all 4 datasets. With more time and compute resources, I'm confident I could have extended my results to larger models and implemented the remaining methods.
+
 ## Parameters and Guidance
 
 Research paper for reference & hints on how to set the parameters: [Flocks of Stochastic Parrots: Differentially Private Prompt Learning for Large Language Models](https://adam-dziedzic.com/static/assets/papers/DifferentiallyPrivatePromptsForLLMs.pdf).
