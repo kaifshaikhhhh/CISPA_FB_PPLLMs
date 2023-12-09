@@ -3,7 +3,7 @@
 ## Submission Details
 
 - **Name:** _Kaif Asif Shaikh_
-- **ML Frameworks Used:** _PyTorch, HuggingFace Transformers, PEFT ()_
+- **ML Frameworks Used:** _PyTorch, HuggingFace Transformers, PEFT, TransformersDP_
 - **Completion Date:** _18th October, 2023_
 - **Submission Date:** _19th October, 2023_
 
@@ -116,6 +116,11 @@ Research paper for reference & hints on how to set the parameters: [Flocks of St
 │       ├── soft_prompt_qqp_nodp.ipynb
 │       ├── soft_prompt_sst2.ipynb
 │       └── soft_prompt_sst2_nodp.ipynb
+├── eda
+│   ├── eda_mnli.ipynb
+│   ├── eda_qnli.ipynb
+│   ├── eda_qqp.ipynb
+│   └── eda_sst2.ipynb
 ├── .gitattributes
 ├── .gitignore
 ├── README.md
@@ -133,3 +138,4 @@ Research paper for reference & hints on how to set the parameters: [Flocks of St
 [[7] Prefix-Tuning: Optimizing Continuous Prompts for Generation](https://arxiv.org/abs/2101.00190) <br>
 [[8] P-Tuning v2: Prompt Tuning Can Be Comparable to Fine-tuning Universally Across Scales and Tasks](https://arxiv.org/pdf/2110.07602.pdf) <br>
 [[9] The Power of Scale for Parameter-Efficient Prompt Tuning](https://arxiv.org/abs/2104.08691) <br>
+[[10] Differentially Private Fine-tuning of Language Models ](https://arxiv.org/abs/2110.06500) <br>
